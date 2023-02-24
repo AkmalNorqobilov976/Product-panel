@@ -6,7 +6,7 @@
       :columns="columns" 
       row-key="name"
       hide-pagination
-      :pagination="pagination"
+      :pagination.sync="pagination"
     >
       <template v-slot:top>
         <q-btn flat outline dense color="primary" label="Add Product"

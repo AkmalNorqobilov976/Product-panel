@@ -29,7 +29,7 @@
           header
           class="text-grey-8"
         >
-          Essential Links
+          Akmal`s done task for Furor Progress
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
